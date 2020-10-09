@@ -5,18 +5,19 @@ using namespace std;
 void bisiesto(int);
 int main(){
 	int year;
-	cout<<"digite su año: ";
+	cout<<"digite su aÃ±o: ";
 	cin>>year;
 	bisiesto(year);
 	return 0;	
 }
 void bisiesto(int year){
 	if(year%400==0){
-		cout<<"Su año es bisiesto";
+		cout<<"Su aÃ±o es bisiesto";
 	}else if((year%4==0)&&(year%100!=0)){
-		cout<<"Su año es bisiesto";
+		cout<<"Su aÃ±o es bisiesto";
 	}else{
-		cout<<"su año no es bisiesto";
+		cout<<"su aÃ±o no es bisiesto";
 	}
 	
 }
+hola
